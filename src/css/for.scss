@@ -1,0 +1,110 @@
+.for{
+  padding: 306px 0 0;
+  &__title{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 191%;
+    text-align: justify;
+    color: #121212;
+    position: relative;
+    margin-bottom: 18px;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 130px;
+      border: 2px solid #FF6A28;
+      top: 24px;
+      left: 150px;
+    }
+  }
+  &__subtitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 191%;
+    text-align: justify;
+    color: rgba(18, 18, 18, 0.5);
+    margin-bottom: 38px;
+  }
+  &__input{
+    width: 494px;
+    height: 78px;
+    background-color: #F8FAFB;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 191%;
+    text-align: justify;
+    color: rgba(18, 18, 18, 0.5);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+  &__card{
+    &-title{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 191%;
+      text-align: justify;
+      color: #121212;
+    }
+    &-menu{
+    list-style-type: none;
+    }
+    &-list{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 191%;
+      text-align: justify;
+      color: rgba(18, 18, 18, 0.5);
+      &-info{
+        text-decoration: none;
+        color: rgba(18, 18, 18, 0.5);
+      }
+      &-apple{
+        text-decoration: none;
+        color: rgba(18, 18, 18, 0.5);
+      }
+    }
+  }
+  &__column{
+    width: calc(50%);
+    display: block;
+  }
+  &__navbar{
+    margin: 140px 10px 84px 0;
+    display: flex;
+    column-gap: 338px;
+    &-title{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 191%;
+      text-align: justify;
+      color: rgba(18, 18, 18, 0.5);
+    }
+    &-menu{
+      list-style-type: none;
+      display: flex;
+      column-gap: 33px;
+    }
+    &-list{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 191%;
+      text-align: justify;
+      color: rgba(18, 18, 18, 0.5);
+    }
+  }
+}

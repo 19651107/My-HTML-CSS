@@ -1,0 +1,63 @@
+.work{
+  padding: 578px 0 99px 0;
+  &__title{
+    font-family: Playfair Display sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    color: #121212;
+    margin-bottom: 9px;
+  }
+  &__subtitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 175%;
+    color: rgba(18, 18, 18, 0.6);
+    position: relative;
+    left: 100px;
+    margin-bottom: 20px;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 67px;
+      height: 0;
+      border: 2px solid #FF6A28;
+      left: -90px;
+      top: 15px;
+    }
+  }
+  &__column{
+    width: 33.33333%;
+    &-img{
+      width: 316px;
+      height: 210px;
+      border-radius: 6px;
+      transition: .3s;
+      &:hover{
+        transition: .3s;
+        transform: scale(1.1);
+      }
+    }
+    &-title{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 60px;
+      color: #121212;
+      margin: 24px 0;
+    }
+    &-subtitle{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 33px;
+      text-align: justify;
+      color: rgba(18, 18, 18, 0.83);
+    }
+  }
+}

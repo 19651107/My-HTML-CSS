@@ -1,0 +1,93 @@
+.home{
+ padding: 54px 0;
+  &__btn{
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FF6A28;
+    width: 158px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #FF6A28;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      transform: scale(1.1);
+      transition: .3s;
+      font-style: italic;
+      color: white;
+      background-color: #FF6A28;
+    }
+    &-info{
+      text-decoration: none;
+      color: #FF6A28;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  &__navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: Playfair Display sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 43px;
+    color: #121212
+  }
+  &__subtitle{
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #121212;
+  }
+  &__menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 30px;
+    padding: 0 32px 0 418px;
+  }
+  &__list{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(18, 18, 18, 0.6);
+    &-bot5{
+      text-decoration: none;
+      color: #121212;
+      &_wow{
+        color: #121212;
+        text-decoration: none;
+      }
+    }
+    &-info{
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #121212;
+      position: relative;
+      &::before{
+        content: '';
+        width: 16px;
+        height: 0;
+        border: 2px solid #FF6A28;
+        position: absolute;
+        left: 15px;
+        bottom: -5px;
+      }
+    }
+  }
+}

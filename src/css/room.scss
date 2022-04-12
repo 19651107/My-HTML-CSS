@@ -1,0 +1,88 @@
+.room{
+  padding: 112px 0 129px;
+  &__title{
+    font-family: Playfair Display sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 41px;
+  }
+  &__subtitle{
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.6);
+  }
+  &__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-btn{
+      margin: 42px 0 65px;
+      font-family: Poppins sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #FFFFFF;
+      width: 194px;
+      height: 52px;
+      background-color: #FF6A28;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: .3s;
+      &:hover{
+        color: #FF6A28;
+        border: 1px solid #FF6A28;
+        background-color: transparent;
+        transition: .3s;
+        transform: scale(1.1);
+        font-style: italic;
+      }
+    }
+  }
+  &__column{
+    display: flex;
+    justify-content: space-between;
+    &-img{
+      width: 1170px;
+      height: 643px;
+      position: absolute;
+      border-radius: 6px;
+    }
+    &-info{
+      background: rgba(255, 255, 255, 0.76);
+      backdrop-filter: blur(40px);
+      border-radius: 10px;
+      width: 419px;
+      height: 148px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      &_title{
+        font-family: Poppins sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 66px;
+        color: #FF6A28;
+      }
+      &_subtitle{
+        font-family: Poppins sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(18, 18, 18, 0.83);
+      }
+    }
+  }
+}

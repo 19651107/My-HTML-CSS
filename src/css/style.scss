@@ -1,0 +1,21 @@
+@import "../fonts/Playfair/stylesheet.css";
+@import "../fonts/Poppins/stylesheet.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+@import "home";
+@import "room";
+@import "work";
+@import "from";
+@import "project";
+@import "interested";
+@import "from";
+@import "for";
